@@ -18,42 +18,42 @@ that states the method and its limits rather than only the best metric.
 
 ## Selected work
 
-**[Planetary-Ocean-Simulator](https://github.com/x1n0x/Planetary-Ocean-Simulator)** — Interactive water-world simulator
+**[Planetary-Ocean-Simulator](https://github.com/x1n0x/Planetary-Ocean-Simulator)** — Interactive water-world simulator  
 Full-sphere shallow-water ocean physics solved with Dedalus v3 and rendered on a
 CesiumJS globe. Drag a moon, change rotation rate, watch tides and currents
 respond. FastAPI backend, React/TypeScript front end, zarr data contract, live
-anomaly detection.
+anomaly detection.  
 `Python` `TypeScript` `FastAPI` `React` `WebGL`
 
-**[WC-2026-Prediction](https://github.com/x1n0x/WC-2026-Prediction)** — World Cup 2026 match and title model
+**[WC-2026-Prediction](https://github.com/x1n0x/WC-2026-Prediction)** — World Cup 2026 match and title model  
 Poisson and LightGBM models producing W/D/L probabilities and tournament odds,
-with a bilingual stadium-style dashboard.
+with a bilingual stadium-style dashboard.  
 [Live dashboard](https://x1n0x.github.io/WC-2026-Prediction/) · `LightGBM` `scikit-learn` `Poisson regression`
 
-**[almaty-springs](https://github.com/x1n0x/almaty-springs)** — Geospatial study of natural springs around Almaty
+**[almaty-springs](https://github.com/x1n0x/almaty-springs)** — Geospatial study of natural springs around Almaty  
 Building an open inventory of springs on the Ile-Alatau slope from
 OpenStreetMap, DEM elevation and field measurements: where springs occur, how
-discharge tracks snowmelt, and how many residents live within a walk of one.
+discharge tracks snowmelt, and how many residents live within a walk of one.  
 `geopandas` `Overpass API` `rasterio` `scipy`
 
-**[time-series-temperature-forecast](https://github.com/x1n0x/time-series-temperature-forecast)** — Winter temperature forecasting for Almaty
+**[time-series-temperature-forecast](https://github.com/x1n0x/time-series-temperature-forecast)** — Winter temperature forecasting for Almaty  
 Lag-based regression on five winter seasons, with leak-free rolling features and
 chronological validation. Notable for what it refuses to do: the write-up
 explains why forecasting the following winter would not have been
-methodologically sound, and stops there.
+methodologically sound, and stops there.  
 `pandas` `scikit-learn` `statsmodels`
 
-**[customer-churn-ml](https://github.com/x1n0x/customer-churn-ml)** — Churn prediction with explainability
+**[customer-churn-ml](https://github.com/x1n0x/customer-churn-ml)** — Churn prediction with explainability  
 Logistic regression, gradient boosting and random forest on the same pipeline,
 compared on ROC-AUC and recall, with coefficient-level interpretation of the
-churn drivers.
+churn drivers.  
 `scikit-learn` `imbalanced classification`
 
-**[tookem](https://github.com/x1n0x/tookem)** — Production site for an electrical-equipment manufacturer
+**[tookem](https://github.com/x1n0x/tookem)** — Production site for an electrical-equipment manufacturer  
 Static landing page for Elektromir, an Almaty switchboard manufacturer. No
 framework and no build step: hand-written HTML, CSS and JavaScript, a 2GIS map
 integration, and full SEO markup (Open Graph, JSON-LD, sitemap, security
-headers). Live at [tookem.kz](https://tookem.kz/).
+headers). Live at [tookem.kz](https://tookem.kz/).  
 `HTML` `CSS` `JavaScript` `SEO`
 
 ---
