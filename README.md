@@ -33,8 +33,9 @@ with a bilingual stadium-style dashboard.
 **[almaty-springs](https://github.com/x1n0x/almaty-springs)** — Geospatial study of natural springs around Almaty  
 Building an open inventory of springs on the Ile-Alatau slope from
 OpenStreetMap, DEM elevation and field measurements: where springs occur, how
-discharge tracks snowmelt, and how many residents live within a walk of one.  
-`geopandas` `Overpass API` `rasterio` `scipy`
+discharge tracks snowmelt, and how many residents live within a walk of one.
+First campaign done: six springs sampled, two of them absent from OSM.  
+[Live map](https://x1n0x.github.io/almaty-springs/reports/map.html) · `Overpass API` `EXIF/GPS` `DEM` `Leaflet`
 
 **[time-series-temperature-forecast](https://github.com/x1n0x/time-series-temperature-forecast)** — Winter temperature forecasting for Almaty  
 Lag-based regression on five winter seasons, with leak-free rolling features and
